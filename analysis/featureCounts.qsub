@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#$ -P bf528
+#$ -cwd
+#$ -pe omp 16
+
+source /etc/bashrc
+
+module load subread
+
+
+GTF=/project/bf528/project_3/reference/rn4_refGene_20180308.gtf #path to gtf annotation
+OUT=8047countsUpdated
+BAMFILE=/projectnb/bf528/users/lava-lamp/BF528_Project_3/samples/STAR_Analysis_SRR1178047/Aligned.sortedByCoord.out.bam
+
+
+
+featureCounts -T 16 -a $GTF -o $OUT $BAMFILE #input files 
