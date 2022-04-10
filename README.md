@@ -1,6 +1,6 @@
 # Project Description
 
-This project is an investigation into Concordance of microarray and RNA-Seq differential gene expression¶.
+This project is an investigation into Concordance of microarray and RNA-Seq differential gene expression.
 # Contributors
 
 Luke Zhang
