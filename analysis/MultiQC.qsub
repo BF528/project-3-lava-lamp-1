@@ -1,0 +1,10 @@
+#In this section, we are aiming to develope the MultiQC html file that will contain all of our statistics. 
+
+#$ -P bf528
+#$ -cwd
+
+source /etc/bashrc
+
+module load python/2.7.13
+module load multiqc
+/projectnb/bf528/users/lava-lamp/BF528_Project_3/samples
