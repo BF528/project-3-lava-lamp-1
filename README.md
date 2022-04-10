@@ -1,6 +1,6 @@
 # Project Description
 
-This project is an investigation into Cardiac Myocytes and transcriptional changes that occur during destabilisation and regeneration.
+This project is an investigation into Concordance of microarray and RNA-Seq differential gene expression¶.
 # Contributors
 
 Luke Zhang
@@ -10,4 +10,4 @@ Mano Ranaweera
 
 # Repository Contents
 
-This repository contains the scripts used for Transcriptional Profile of Mammalian Cardiac Regeneration with mRNA-seq. 
+This repository contains the scripts used for DESeq2 anlysis on RNA-seq differential expression data, Limma analysis on Microarray Differential Expression data as well as corcordance between microarray and RNA-Seq. 
