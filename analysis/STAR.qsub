@@ -1,0 +1,14 @@
+#STAR Analysis: 
+#In this section, the STAR alignment mechanism was used. Below, is my command line for just one of the samples. This process was run a total of 9 times
+#in order to garner the results for each sample. The GENOMEDIR is the pathway to the rat genome that we are aligning against. The SAMPLEPATHWAY is the pathway 
+#to the sample of which we are working with. The DESTINATION is the pathway to the place where the .bam file for the sample will be made. 
+
+module load star/2.6.0c
+
+GENOMEDIR=/project/bf528/project_3/reference/rn4_STAR
+SAMPLEPATHWAY=/projectnb/bf528/users/lava-lamp/BF528_Project_3/samples
+DESTINATION=/projectnb/bf528/users/lava-lamp/BF528_Project_3/STAR_Analysis_SRR1178047
+
+
+STAR --genomeDir $GENOMEDIR --runThreadN 16 --readFilesIn $SAMPLEPATHWAY/SRR1178047_1.fastq.gz $SAMPLEPATHWAY/SRR1178047_2.fastq.gz 
+--readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --outFileNamePrefix $DESTINATION
