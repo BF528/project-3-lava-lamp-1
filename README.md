@@ -1,11 +1,13 @@
 # Project Description
 
-A brief description of what this repository is for and what it contains
-
+This project is an investigation into Cardiac Myocytes and transcriptional changes that occur during destabilisation and regeneration.
 # Contributors
 
-List contributor names and github user names, or email addresses if desired
+Luke Zhang
+Sri Veerisetti 
+Benyu Zhou
+Mano Ranaweera 
 
 # Repository Contents
 
-Provide a brief description of each script/code file in this repo, what it does, and how to execute it
+This repository contains the scripts used for Transcriptional Profile of Mammalian Cardiac Regeneration with mRNA-seq. 
